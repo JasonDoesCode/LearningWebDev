@@ -66,7 +66,58 @@ html, body{
 
 .band-name-large{
     font-size: 7em;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
 }
 
+.content-section{
+    margin: 1em;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 900px;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: Rock Salt;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    background-color: #56ccf2;
+    color: white;
+    padding: .25em 0;;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
 /* https://www.youtube.com/watch?v=Sv_NAxi_jNs&list=PLZlA0Gpn_vH9xx-RRVNG187ETT2ekWFsq&index=8&ab_channel=WebDevSimplified */
 /* 18:55 */
