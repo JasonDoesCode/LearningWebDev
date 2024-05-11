@@ -104,6 +104,7 @@ html, body{
 .main-footer-container{
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
 .main-footer-container ul{
